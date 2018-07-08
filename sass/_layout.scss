@@ -1,16 +1,21 @@
 .container {
-max-width: 120rem;
-margin: 8rem auto;
-background-color: var(--grey-light-2);
-box-shadow: var(--shadow-dark);
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--grey-light-2);
+  box-shadow: var(--shadow-dark);
 
-min-height: 50rem;
+  min-height: 50rem;
 }
 
 .header {
-height: 7rem;
-background-color: var(--color-white);
-border-bottom: var(--grey-light-2);
+  font-size: 1.4rem;
+  height: 7rem;
+  background-color: var(--color-white);
+  border-bottom: var(--grey-light-2);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {
@@ -18,14 +23,14 @@ border-bottom: var(--grey-light-2);
 }
 
 .sidebar {
-background-color: var(--grey-dark-1);
+  background-color: var(--grey-dark-1);
 
-flex: 0 0 18%;  // don't grow | don't shrink | take up 18% of space
+  flex: 0 0 18%;  // don't grow | don't shrink | take up 18% of space
 }
 
 .hotel-view {
-background-color: var(--color-white);
-background-color: red;
+  background-color: var(--color-white);
+  background-color: red;
 
-flex: 1; // the "1" tells this div to grow to fill the maximum amount of space available
+  flex: 1; // the "1" tells this div to grow to fill the maximum amount of space available
 }
