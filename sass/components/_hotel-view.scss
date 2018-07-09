@@ -149,13 +149,17 @@
 
     @media ONLY screen AND (max-width: $bp-med) {
       padding: 2rem;
-      margin-bottom: 3rem;
+      margin-bottom: 3rem;      
     }
 
     &__text {
       margin-bottom: 2rem;
       z-index: 10;
       position: relative;
+
+      @media ONLY screen AND (max-width: $bp-smallest) {
+        font-size: 1.6rem;
+      }
     }
 
     &__user {

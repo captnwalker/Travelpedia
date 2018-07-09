@@ -2,6 +2,10 @@
   font-family: 'Montserrat Alternates', sans-serif;
   margin-left: 2rem;
   color: var(--color-primary);
+
+  @media ONLY screen AND (max-width: $bp-smallest){
+   font-size: 2.4rem;
+  }
 }
 
 .search {
@@ -11,6 +15,11 @@
   align-items: center;
   justify-content: center;
 
+  @media ONLY screen AND (max-width: $bp-smallest){
+    order: 1;
+    flex: 0 0 100%;
+    background-color: var(--grey-light-2);
+  }
   @media ONLY screen AND (max-width: $bp-smallest){
     order: 1;
     flex: 0 0 100%;
