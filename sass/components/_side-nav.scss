@@ -3,12 +3,25 @@
   list-style: none;
   margin-top: 3.5rem;
 
+  @media ONLY screen AND (max-width: $bp-med) {
+    display: flex;
+    margin: 0;
+ }
+
   &__item {
    position: relative;
 
    &:not(:last-child) {
-     margin-bottom: .5rem;     
+     margin-bottom: .5rem;
+     
+     @media ONLY screen AND (max-width: $bp-med) {
+      margin: 0;
+    }
    }
+
+   @media ONLY screen AND (max-width: $bp-med) {
+   flex: 1;
+ }
   }
 
   &__item::before {
@@ -48,6 +61,11 @@
 
     display: flex;
     align-items: center;
+
+    @media ONLY screen AND (max-width: $bp-med) {
+      justify-content: center;
+      padding: 2rem;
+    }
   }
 
   &__icon {
@@ -64,4 +82,8 @@
   color: var(--grey-light-4);
   text-align: center;
   padding: 2.5rem;
+
+  @media ONLY screen AND (max-width: $bp-med) {
+    display: none;
+ }
 }

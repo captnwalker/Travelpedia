@@ -122,6 +122,11 @@
     position: relative;
     overflow: hidden;
 
+    @media ONLY screen AND (max-width: $bp-med) {
+      padding: 2rem;
+      margin-bottom: 3rem;
+    }
+
     &__text {
       margin-bottom: 2rem;
       z-index: 10;
@@ -180,6 +185,10 @@
    .cta {
      padding: 3.5rem;
      text-align: center;
+
+     @media ONLY screen AND (max-width: $bp-med) {
+      padding: 2.5rem 0;
+    }
 
      &__book-now {
        font-size: 2rem;
