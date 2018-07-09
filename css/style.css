@@ -253,6 +253,7 @@ body {
   display: flex; }
   .gallery__photo {
     width: 100%;
+    height: auto;
     display: block; }
 
 .overview {
