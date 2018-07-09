@@ -20,13 +20,9 @@
 
 <https://captnwalker.github.io/Travelpedia/>
 
-### Screenshots (Mobile) of this project
+### Screenshot of this project
 
-![Travelpedia1](https://raw.github.com/captnwalker/Travelpedia/master/img/vt1.JPG "Travelpedia1")
-
-![Travelpedia2](https://raw.github.com/captnwalker/Travelpedia/master/img/vt2.JPG "Travelpedia2")
-
-![VTravelpedia3](https://raw.github.com/captnwalker/Travelpedia/master/img/vt3.JPG "Travelpedia3")
+![Travelpedia1](https://raw.github.com/captnwalker/Travelpedia/master/img/travelpedia.png "Travelpedia1")
 
 ### Tech Stack
 
