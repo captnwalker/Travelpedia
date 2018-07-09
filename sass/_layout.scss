@@ -22,6 +22,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media ONLY screen AND (max-width: $bp-smallest){
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 10rem;
+  }
 }
 
 .content {
@@ -58,6 +64,10 @@
   @media ONLY screen AND (max-width: $bp-med) {
     padding: 3rem;
   }
+
+  @media ONLY screen AND (max-width: $bp-small){
+    flex-direction: column;    
+ }
 }
 
 .description {
@@ -72,6 +82,11 @@
     padding: 2rem;
     margin-right: 3rem;
   }
+
+  @media ONLY screen AND (max-width: $bp-small){
+    margin-right: 0;
+    margin-bottom: 3rem;
+ }
 }
 
 .user-reviews {
@@ -108,15 +123,20 @@
     margin-right: .7rem;
 
     // Older browsers
-    // background-image: url(../img/chevron-thin-right.svg);
-    // background-size: cover;
+    background-image: url(../img/chevron-thin-right.svg);
+    background-size: cover;
 
-    // Newer browsers supported mask to color icon
-    background-color: var(--color-primary);
+    // Feature Query for newer browsers supporting mask we used to color > icon
+@supports (-webkit-mask-image: url()) or (mask-image: url()) {
+      background-color: var(--color-primary);
     -webkit-mask-image: url(../img/chevron-thin-right.svg);
     -webkit-mask-size: cover;
     mask-image: url(../img/chevron-thin-right.svg);
     mask-size: cover;
+    background-image: none;
+}
+
+
   }
 }
 

@@ -1,10 +1,10 @@
 # Travelpedia
 
-## A Travel Company Website Landing Page built with SASS
+## A Travel Company Website Landing Page built with SASS and Flexbox
 
 ### Purpose of this Project
 
-> Travelpedia is a "proof-of-concept" Travel booking website landing page built with SASS and Flexbox and presented as a showcase for numerous CSS effects complied from SASS/SCSS such as:
+> Travelpedia is a "proof-of-concept" travel booking website landing page (front-end only) built with SASS and Flexbox and presented as a showcase for numerous CSS animations complied from SASS/SCSS including:
 
 - Custom "Hamburger" menu & buttons
 - Bezier gradients
@@ -13,7 +13,7 @@
 - Embedded video background
 - Cusom "flippable" cards
 - Responsive images
-- SVG images
+- SVG icons
 - Fully responsive design through media queries
 
 ### Link to Live Site
@@ -31,7 +31,7 @@
 ### Tech Stack
 
 - SASS/SCSS
-- CSS3
+- CSS3 variables
 - HTML5
 - NodeJS
 - SVG
