@@ -6,15 +6,12 @@
 
 > Travelpedia is a "proof-of-concept" travel booking website landing page (front-end only) built with SASS and Flexbox and presented as a showcase for numerous CSS animations complied from SASS/SCSS including:
 
-- Custom "Hamburger" menu & buttons
 - Bezier gradients
 - Transistions
-- Animations
-- Embedded video background
-- Cusom "flippable" cards
-- Responsive images
+- CSS Animations
+- CSS Variables
 - SVG icons
-- Fully responsive design through media queries
+- Fully responsive mobile-friendly design through flexbox and media queries
 
 ### Link to Live Site
 
@@ -30,13 +27,13 @@
 - CSS3 variables
 - HTML5
 - NodeJS
-- SVG
+- SVG icons
 
 ### Steps to deploy this project locally
 
 1.  Clone this repo
 2.  Run `npm install` to re-build dependencies
 3.  In a new cli run `npm run start` to start live server and compiler running in background. Leave this cli open to keep compiler running on each save.
-4. When dev is complete and you are ready to deploy, run `npm run build:css` to compile complete, minified css file.
+4. When dev is complete and you are ready to deploy, run `npm run build:css` to compile complete, minified css file with prefixes.
 
 #### Created July 2018, MIT
