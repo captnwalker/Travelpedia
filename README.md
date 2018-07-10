@@ -17,9 +17,11 @@
 
 <https://captnwalker.github.io/Travelpedia/>
 
-### Screenshot of this project
+### Screenshots of this project
 
 ![Travelpedia1](https://raw.github.com/captnwalker/Travelpedia/master/img/travelpedia.png "Travelpedia1")
+
+![Travelpedia-mobile](https://raw.github.com/captnwalker/Travelpedia/master/img/screenshot-2.jpg "Travelpedia-mobile")
 
 ### Tech Stack
 
@@ -34,6 +36,6 @@
 1.  Clone this repo
 2.  Run `npm install` to re-build dependencies
 3.  In a new cli run `npm run start` to start live server and compiler running in background. Leave this cli open to keep compiler running on each save.
-4. When dev is complete and you are ready to deploy, run `npm run build:css` to compile complete, minified css file with prefixes.
+4. When dev is complete and you are ready to deploy, run `npm run build:css` to compile complete, minified css file with prefixes .
 
 #### Created July 2018, MIT
